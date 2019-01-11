@@ -1,0 +1,29 @@
+{
+	"name": "Youtube煩過西",
+	"description": "唔好再逼我禁YES啦",
+	"version": "1.0.1",
+	"manifest_version": 2,
+	"icons": {
+		"128": "icon.png"
+	},
+	"content_scripts": [
+		{
+			"matches": [
+				"<all_urls>"
+			],
+			"js": [
+				"./lib/jquery.min.js",
+				"./main.js"
+				
+			]
+		}
+	],
+	"permissions": [
+		"notifications",
+		"tabs",
+		"storage",
+		"background",
+		"http://*/*",
+		"https://*/*"
+	]
+}
