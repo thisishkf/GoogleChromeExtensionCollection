@@ -4,8 +4,11 @@ $(document).ready(function () {
 
 const breakAutoPause = function () {
 	setInterval(() => {
-		$('#confirm-button').click();
+		if($('ytd-popup-container').html()){
+			$('yt-button-renderer').click();
+			$('ytd-popup-container').remove();
+			console.log('clicked');
+		}
 	}, 5000);
-
 }
 

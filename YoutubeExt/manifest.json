@@ -1,6 +1,6 @@
 {
-	"name": "Youtube煩過西",
-	"description": "唔好再逼我禁YES啦",
+	"name": "YoutubeExtensionPackage",
+	"description": "Youtube Extension Package",
 	"version": "1.0.1",
 	"manifest_version": 2,
 	"icons": {
@@ -14,7 +14,6 @@
 			"js": [
 				"./lib/jquery.min.js",
 				"./main.js"
-				
 			]
 		}
 	],
